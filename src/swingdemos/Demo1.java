@@ -45,10 +45,10 @@ public class Demo1 implements ActionListener {
             String s = jt.getText();
             String empty = "";
             if(s.equals(empty)){
-                JOptionPane.showMessageDialog(jf,"saale apna naam daal", "Error",JOptionPane.ERROR_MESSAGE);//System.out.println("Hi, "+s);  aise mt print krao bcos nhi to terminal pr print hoga wo
+                JOptionPane.showMessageDialog(jf,"Please enter your name", "Error",JOptionPane.ERROR_MESSAGE);//System.out.println("Hi, "+s);  aise mt print krao bcos nhi to terminal pr print hoga wo
             }
             else{
-                JOptionPane.showMessageDialog(jf,"or padode, "+s); //* hmne jf ko pass isliye kiya hai so that dialog box frame ke reference mai center mai open ho
+                JOptionPane.showMessageDialog(jf,"Hi, "+s); //* hmne jf ko pass isliye kiya hai so that dialog box frame ke reference mai center mai open ho
             }
             jt.setText("");//if we want that on clicking ok text feild empty ho jae
         }
